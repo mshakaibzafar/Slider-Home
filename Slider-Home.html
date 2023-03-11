@@ -1,0 +1,1376 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+	
+</head>
+<style>
+	@media only screen and (max-width: 767px) {
+		button.slick-prev.slick-arrow:after {
+    left: 15px !important;
+    top: -65px !important;
+}
+button.slick-next.slick-arrow:after {
+    left: -45px !important;
+    top: -65px !important;
+}
+img.iamg-main {
+    margin-left: 0px !important;
+}
+p.iamg-main {
+    text-align: center;
+}
+p.over-all {
+    text-align: center;
+}
+}
+.lead{
+  font-size:16.px;
+}
+.card {
+	border: 0;
+	margin: 10px;
+	outline: none;
+	cursor: pointer;
+}
+
+.slick-dots li button:before{
+  color:#fff!important;
+  font-size: 18px;
+}
+.card-body h3{
+  color:#fdf8f4;
+  align-item:left;
+  font-weght:600;
+  margin:40px 0px 0px 0px;
+  
+}
+.cust_card_btn_div{
+  margin:0px 0px 50px;
+  
+}
+.cust_card_btn{
+  color:#fff;
+  Background:#991B1E
+;
+  padding:16px 40px; 
+  position:absolute;
+  right:0px;
+}
+.card-body span{
+  background:#991B1E;
+  border-radius:4px;
+  padding:10px 15px;
+color:#fff;
+  position:relative;
+  float:right;
+  margin-bottom:50px;
+  
+} 
+.lead{
+  font-size:16.px;
+}
+.card {
+	border: 0;
+	margin: 10px;
+	outline: none;
+	cursor: pointer;
+}
+
+.slick-dots li button:before{
+  color:#fff!important;
+  font-size: 18px;
+}
+.card-body h3{
+  color:#000;
+  align-item:left;
+  font-weght:600;
+  margin:40px 0px 0px 0px;
+  
+}
+.cust_card_btn_div{
+  margin:0px 0px 50px;
+  
+}
+.cust_card_btn{
+  color:#fff;
+  Background:#991B1E
+;
+  padding:16px 40px; 
+  position:absolute;
+  right:0px;
+}
+.card-body span{
+  background:#991B1E;
+  border-radius:4px;
+  padding:10px 15px;
+color:#fff;
+  position:relative;
+  float:right;
+  margin-bottom:50px;
+  
+} 
+.main-review {
+    max-width: 1200px !important;
+}
+
+.iner-review-row {
+    display: flex;
+}
+.fisrt-small-sec img {
+    width: 255px;
+}
+.iner-review-row span {
+    font-size: 48px;
+    color: #0c1d37;
+    line-height: 117%;
+    font-weight: 700 !important;
+    letter-spacing: -.7px;
+}
+.iner-review-row p {
+    margin-left: 20px;
+    color: #000;
+    line-height: 30px;
+    text-align: left;
+    font-size: 18px !important;
+}
+.iner-review-row .col-lg-8 {
+    padding-left: 0px !important;
+}
+.iner-review-row .col-lg-4 {
+    padding-right: 0px !important;
+    text-align: right;
+}
+.container.main-review img {
+    margin-left: -30px;
+    margin-top: -20px;
+}
+.cust_card_btn_div img {
+    width: 150px;
+    margin: auto !important;
+}
+.cust_card_btn_div {
+    margin-bottom: 0px !important;
+}
+h3.text-left.py-4 {
+    margin-top: 0px !important;
+}
+.card-body p {
+    text-align: center;
+}
+.card {
+    border-radius: 10px;
+}
+.card-body {
+    padding: 15px !important;
+}
+.card-body p {
+    margin-bottom: 8px;
+}
+p.over-all {
+    margin-left: -23px;
+    font-size: 18px;
+    line-height: 170%;
+    font-weight: 400;
+    color: #000 !important;
+    margin-top: 7px;
+}
+button.slick-prev.slick-arrow:after {
+    width: 24px !important;
+    height: auto;
+    font-size: 16px !important;
+    content: '\2190' !important;
+    color: black;
+    left: -35px;
+    top: -250px;
+    background-color: #fff !important;
+    box-shadow: 1px 1px 4px rgb(0 0 0 / 20%) !important;
+    position: absolute !important;
+    margin: 5px;
+    border-radius: 30px !important;
+    padding-left: 12px;
+    padding-right: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+button.slick-next.slick-arrow:after {
+    width: 24px !important;
+    height: auto;
+    font-size: 16px !important;
+    content: '\2192' !important;
+    color: black !important;
+    left: 5px;
+    top: -242px;
+    box-shadow: 1px 1px 4px rgb(0 0 0 / 20%) !important;
+    position: absolute;
+    margin: 5px;
+    background-color: #fff;
+    border-radius: 30px !important;
+    padding-left: 12px;
+    padding-right: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.slick-prev:before, .slick-next:before {
+	display: none;
+}
+ul.slick-dots {
+    display: none;
+}
+.cust_card_btn_div img {
+    padding-top: 20px;
+}
+</style>
+<body>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<div class="container main-review">
+   <div class="row">
+   	<div class="col-lg-3 fisrt-small-sec">
+   		<div class="iner-review-row">
+   		<div class="col-lg-4"><span>4.9</span></div>
+   		<div class="col-lg-8"><p>Out of <br>5 Stars</p>
+   		</div>
+   		</div>
+   		<p class="iamg-main"><img src="https://global-uploads.webflow.com/6267d9df17f47fb6a5ba20dc/64033da5ab04581add206214_download.png" class="iamg-main"></p>
+   		<p class="over-all">Overall rating of 179 reviews</p>
+   	</div>
+      <div class="col-lg-9">
+ <div class="items">
+    <div class="card">
+       <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Meghan Lawrence</strong></p>
+   		<p>February 22, 2023</p>
+   		<p>John was AMAZING - he kept us laughing and engaged the entire time. I went into it not really knowing what to expect, but was so happy with what we did! Can't recommend it enough.</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+         <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Stephanie Ling</strong></p>
+   		<p>February 22, 2023</p>
+   		<p>John was great! The pace was set really well, the games were different enough, and I feel like all participants could easily gain points no matter what setting they were in or their knowledge of pop culture.</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Jessica Nghiem</strong></p>
+   		<p>February 22, 2023</p>
+   		<p>Host was amazing! I would definitely recommend this esply in a time where virtual meetings are taking place. Great way to team build</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+          <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Amanda Campbell</strong></p>
+   		<p>February 20, 2023</p>
+   		<p>Detective Samantha had a great attitude and was a great storyteller. Fun times all around!</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Eliana Frank</strong></p>
+   		<p>February 10, 2023</p>
+   		<p>Fun team building event! Everyone was happy :-)</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Kelsey Miller</strong></p>
+   		<p>February 8, 2023</p>
+   		<p>This game night was a lot of fun!! The host was hilarious and engaged all of us. The games were easy to follow and had us laughing so hard. We are still talking about the game night!!</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b8370beb22ef68ad3afbd_4.5.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 4.5 stars</p>
+   		<p><strong>Tara Dixon</strong></p>
+   		<p>January 30, 2023</p>
+   		<p>We had a great time!</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>David Pisoni</strong></p>
+   		<p>January 27, 2023</p>
+   		<p>Team had a great time! Will recommend to other team leaders.</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Halie Matuszak</strong></p>
+   		<p>January 26, 2023</p>
+   		<p>Det. Samantha was awesome!</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>4 out of 5 stars</p>
+   		<p><strong>Dih-Yih Chen</strong></p>
+   		<p>January 23, 2023</p>
+   		<p>We had a wonderful experience. We had a group of 8. For most, this was the first escape room experience. The puzzles were fun and challenging. We needed a lot of help in the first couple of rooms. By the third room, we were solving the puzzles ourselves. Our host was super helpful and friendly. She gave just the right hints to help us without taking away from the experience. She really allowed us to get the most out of the escape room.</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Vlad Gordeyev</strong></p>
+   		<p>January 20, 2023</p>
+   		<p>Sam was a phenomenal host!! He had the full group engaged and laughing the whole time! 10/10</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Meridee Rilen</strong></p>
+   		<p>January 20, 2023</p>
+   		<p>Sam was amazing! Funny, connected SO well with folks individually and managed the whole group and the time. We'll be back!</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Yvonne CLARK</strong></p>
+   		<p>January 18, 2023</p>
+   		<p>loved the session!</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Malak El-Khatib</strong></p>
+   		<p>January 14, 2023</p>
+   		<p>It was a very fun team bonding experience and was super easy to plan!</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>llambrini duda</strong></p>
+   		<p>January 14, 2023</p>
+   		<p>amazing</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Leticia Halas</strong></p>
+   		<p>January 9, 2023</p>
+   		<p>Phil was an amazing host and kept us engaged throughout. Thank you!</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b8370beb22ef68ad3afbd_4.5.png">
+       </div>
+       <div class="card-body">
+          <p>4.5 out of 5 stars</p>
+   		<p><strong>Steve Ruffolo</strong></p>
+   		<p>December 23, 2022</p>
+   		<p>Great experience. the whole team had fun</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Darin LEavitt</strong></p>
+   		<p>December 21, 2022</p>
+   		<p>Samantha is the best</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Tchalla Brown</strong></p>
+   		<p>December 20, 2022</p>
+   		<p>The booking specialist and host were both amazing! My team loved the games choices that were selected for the holiday party. I do recommend adding additional winter holiday content as everyone doesn't celebrate Christmas.</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b83704379a33f3e14db01_4.png">
+       </div>
+       <div class="card-body">
+          <p>4 out of 5 stars</p>
+   		<p><strong>December 20, 2022</strong></p>
+   		<p>January 26, 2023</p>
+   		<p>Samantha was wonderful! Very animated and knowledgeable!</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Ashley Hornbeak</strong></p>
+   		<p>December 20, 2022</p>
+   		<p>Great time! Host was wonderful!</p>
+       </div>
+    </div>
+ <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Candace Corrales</strong></p>
+   		<p>December 16, 2022</p>
+   		<p>I really loved the event overall and our host was awesome - yay John!!! However, there was one challenge toward the beginning that really should be removed from the event. As a woman, being told to smile (even for a contest) is really uncomfortable? It made me flashback a bit to all the times I've had men tell me to smile or tell me I'd be prettier if I smiled and it kind of ruined the fun for me for a bit. I'd appreciate it if that particular "challenge" was removed from the games. I know it wasn't meant in any particular bad way, and the rest of the event was really fun. John did a great job of creating a fun environment and had immediate chemistry with our group.</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b8370beb22ef68ad3afbd_4.5.png">
+       </div>
+       <div class="card-body">
+          <p>4.5 out of 5 stars</p>
+   		<p><strong>Lee Ferguson</strong></p>
+   		<p>December 16, 2022</p>
+   		<p>Sam was a great host! So much fun and encouraged interaction of our small team.</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Ersa Sala</strong></p>
+   		<p>December 16, 2022</p>
+   		<p>Was really fun! Taylor was great and made the experience go smoothly.</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Eric Johns</strong></p>
+   		<p>December 16, 2022</p>
+   		<p>Lots of fun! Our guide was great!</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Jon Morgan II</strong></p>
+   		<p>December 16, 2022</p>
+   		<p>Loved the experience with my team!</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Heather Eckman</strong></p>
+   		<p>December 15, 2022</p>
+   		<p>There were a few technical difficulties at the beginning that were probably on our end. Otherwise, it was easy peasy and a lot of fun.</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Lica Patterson</strong></p>
+   		<p>December 15, 2022</p>
+   		<p>Was loads of fun! Host was amazing.</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Nandhitha Ravikumar</strong></p>
+   		<p>December 15, 2022</p>
+   		<p>Great.. Had so much fun. Samantha was a great host.!! would love to participate in another one</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Brea Bryant</strong></p>
+   		<p>December 15, 2022</p>
+   		<p>Absolutely LOVED our host! Very engaging and energetic! Definitely kept the energy and momentum up amongst my team members and I loved the witty jokes here and there. In a time where connecting in person is still a challenge (whether it is pandemic related or budget related or other reasons) having virtual options like Ryptic is so amazing! Thank you for an amazing time today!</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b83704379a33f3e14db01_4.png">
+       </div>
+       <div class="card-body">
+          <p>4 out of 5 stars</p>
+   		<p><strong>Chester Guinto</strong></p>
+   		<p>December 15, 2022</p>
+   		<p>John was our host and he was great! Didn't have a pen and paper ready for some of the drawing questions but that was the only one I wasn't prepared for. <br>The emoji games were a lot of fun!</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b8370beb22ef68ad3afbd_4.5.png">
+       </div>
+       <div class="card-body">
+          <p>4.5 out of 5 stars</p>
+   		<p><strong>Michelle Vella</strong></p>
+   		<p>December 15, 2022</p>
+   		<p>Great</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Jimmy Young</strong></p>
+   		<p>December 15, 2022</p>
+   		<p>Amazing experience and great host.</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Bill Sowar</strong></p>
+   		<p>December 15, 2022</p>
+   		<p>Great Time! Thank you!</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Alexandra Warrington</strong></p>
+   		<p>December 14, 2022</p>
+   		<p>It was so much fun!</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Teakre Vest</strong></p>
+   		<p>December 14, 2022</p>
+   		<p>I thought it was super fun!</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Whitney Green</strong></p>
+   		<p>December 14, 2022</p>
+   		<p>Very fun and entertaining!</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b83704379a33f3e14db01_4.png">
+       </div>
+       <div class="card-body">
+          <p>4 out of 5 stars</p>
+   		<p><strong>Angela Counter</strong></p>
+   		<p>December 20, 2022</p>
+   		<p>It was fun, but the logistical part could use some improvement. We had a scheduling mishap due to the confirmation email not including information about the timezone, which is an important detail for virtual events. <br>As for value for money, it was pretty medium there. We have put together our own events with similar trivia and games, and I expected to be wow'ed a little more by going with an external provider. Even things such as adding music or tailoring things a little for the audience would be an improvement (we are in Canada and the trivia / content was very US biased). <br>We had fun, had some laughs.</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Joseph MacDonald</strong></p>
+   		<p>December 14, 2022</p>
+   		<p>It was a blast and great team building execise</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b83704379a33f3e14db01_4.png">
+       </div>
+       <div class="card-body">
+          <p>4 out of 5 stars</p>
+   		<p><strong>Sarah blennerhassett</strong></p>
+   		<p>December 14, 2022</p>
+   		<p>The emoji games</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Vanessa Thomson</strong></p>
+   		<p>December 14, 2022</p>
+   		<p>Always a great experience! Super fun, well organized, and engaging. We enjoy doing these as team-building exercises. Thanks to john for being a great host.</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b8370beb22ef68ad3afbd_4.5.png">
+       </div>
+       <div class="card-body">
+          <p>4.5 out of 5 stars</p>
+   		<p><strong>Maggie McPhail</strong></p>
+   		<p>December 20, 2022</p>
+   		<p>Great time! Host was wonderful!</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b83704379a33f3e14db01_4.png">
+       </div>
+       <div class="card-body">
+          <p>4 out of 5 stars</p>
+   		<p><strong>Andie W</strong></p>
+   		<p>December 14, 2022</p>
+   		<p>Great time!</p>
+       </div>
+    </div>	
+<div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b83704379a33f3e14db01_4.png">
+       </div>
+       <div class="card-body">
+          <p>4 out of 5 stars</p>
+   		<p><strong>Thabo Sthibo</strong></p>
+   		<p>December 14, 2022</p>
+   		<p>Thank you won’t be enough for what you’ve done for me Mrs Lucy. But, thanks for being the shoulder I can always depend on when it comes to Forex and Bitcoin trade.
+I was able to earn $6,000 in just 7 days with an investment capital of $500 with the help of your Expert trading skill. let me try and help others reach out to you for them to
+have the best trading experience too. contact Mrs Lucy for your safe and secure trade.
+Via WhatsApp: +1 (530) 341‑2390
+Email: lucyfrank787@gmail.com</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b83704379a33f3e14db01_4.png">
+       </div>
+       <div class="card-body">
+          <p>4 out of 5 stars</p>
+   		<p><strong>Alfred Wong</strong></p>
+   		<p>December 10, 2022</p>
+   		<p>It was good, however there was a bit of room for error in the green room with the table. Also tape isn’t something we would consider as fabric for one of the clues as adhesive fabric</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Tanis Young</strong></p>
+   		<p>December 9, 2022</p>
+   		<p>Had a great time</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Rich Konopko</strong></p>
+   		<p>December 9, 2022</p>
+   		<p>Taylor was fun, his diction was clear, which made it easy to understand him during the entire session. I would definitely recommend this to others, especially with this host!	</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Erika Davis</strong></p>
+   		<p>December 9, 2022</p>
+   		<p>Taylor did a great job. The trivia had a nice mix of pop culture, history, and science questions so it made it fun for everyone.</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Julia Stokes</strong></p>
+   		<p>December 9, 2022</p>
+   		<p>I really enjoyed the game and all of the participation.</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Patricia Englehart-Martin</strong></p>
+   		<p>December 9, 2022</p>
+   		<p>this was fun for everyone, very interactive, good pace, lots of laughs and fun knowledge, very enjoyable</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Stacia Schrecongost</strong></p>
+   		<p>December 9, 2022</p>
+   		<p>Really fun time, thank you so much!</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b83704379a33f3e14db01_4.png">
+       </div>
+       <div class="card-body">
+          <p>4 out of 5 stars</p>
+   		<p><strong>Anna R</strong></p>
+   		<p>December 9, 2022</p>
+   		<p>na</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b8370beb22ef68ad3afbd_4.5.png">
+       </div>
+       <div class="card-body">
+          <p>4.5 out of 5 stars</p>
+   		<p><strong>Hunter James</strong></p>
+   		<p>December 9, 2022</p>
+   		<p>Overall it was a great interactive experience. Great host as well.</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Libby Walker</strong></p>
+   		<p>December 9, 2022</p>
+   		<p>Great fun. Host kept it moving well.</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Melissa Sherman</strong></p>
+   		<p>December 9, 2022</p>
+   		<p>It was pretty entertaining. I would do it again</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Crystal Evans</strong></p>
+   		<p>December 9, 2022</p>
+   		<p>Jon did an awesome job. I had such a great time!</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Kimberli Ostlund</strong></p>
+   		<p>December 9, 2022</p>
+   		<p>Loved the experience - great way to connect virtually and celebrate our end of year!</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Capital One McLeod</strong></p>
+   		<p>December 9, 2022</p>
+   		<p>John was a great host! Very interactive event</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Allyson Herren</strong></p>
+   		<p>December 9, 2022</p>
+   		<p>John was a fantastic host, the game was unique and still a lot of fun, with the aspect of involving our real world items in the game was interesting.</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Dawn Short</strong></p>
+   		<p>December 9, 2022</p>
+   		<p>John did a great job hosting our team event!! He was super fun and everyone seemed to enjoy it!</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b8370beb22ef68ad3afbd_4.5.png">
+       </div>
+       <div class="card-body">
+          <p>4.5 out of 5 stars</p>
+   		<p><strong>John Wooten</strong></p>
+   		<p>December 9, 2022</p>
+   		<p>NA</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Judith Roads</strong></p>
+   		<p>December 9, 2022</p>
+   		<p>It was so much fun!</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Shannon Nehrbas</strong></p>
+   		<p>December 8, 2022</p>
+   		<p>Very fun, engaging and interactive experience! I thought it was a nice team building experience and a time to 'relax'.</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Heather Clapprood</strong></p>
+   		<p>December 8, 2022</p>
+   		<p>Amazing job by Taylor great host!</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b83704379a33f3e14db01_4.png">
+       </div>
+       <div class="card-body">
+          <p>4 out of 5 stars</p>
+   		<p><strong>Nim Sten-Gilady</strong></p>
+   		<p>December 8, 2022</p>
+   		<p>N/A</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Raechel Hitchye</strong></p>
+   		<p>December 8, 2022</p>
+   		<p>fantastic fun</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Darcy Coleman</strong></p>
+   		<p>December 8, 2022</p>
+   		<p>LOVE it!!!! SO much funnnnn!!</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Ashley Baldschun</strong></p>
+   		<p>December 8, 2022</p>
+   		<p>Thank you Taylor!</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Tiffany Johnson</strong></p>
+   		<p>December 8, 2022</p>
+   		<p>Samantha was awesome and very funny</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Cecilia Santos</strong></p>
+   		<p>December 8, 2022</p>
+   		<p>Super fun game. John was an amazing host! I would recommend this 10/10!</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Kate Leonardo</strong></p>
+   		<p>December 8, 2022</p>
+   		<p>I attended a charcuterie class. This was amazing! Our host Marie Fisher with Nature's Platter was fun to learn from and she had amazing little tips sprinkled in throughout the presentation. I learned a bunch of new tricks to my charcuterie skills! Happy Holidays!</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>John Lindsey</strong></p>
+   		<p>December 8, 2022</p>
+   		<p>Great charcuterie making class!</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Shawna Garrett</strong></p>
+   		<p>December 7, 2022</p>
+   		<p>Sam was a great host! So much fun and encouraged interaction.</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b8370beb22ef68ad3afbd_4.5.png">
+       </div>
+       <div class="card-body">
+          <p>4.5 out of 5 stars</p>
+   		<p><strong>Sheina Abrahim</strong></p>
+   		<p>December 7, 2022</p>
+   		<p>It was a lot of fun, and I really enjoyed the games, and the host was nice.</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Erin Yager</strong></p>
+   		<p>December 5, 2022</p>
+   		<p>It was fun and lighthearted! John was a great host!</p>
+       </div>
+    </div>
+<div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Thomas Harrod</strong></p>
+   		<p>December 5, 2022</p>
+   		<p>John was amazing, Kept the energy high. Very Fun.</p>
+       </div>
+    </div>
+ <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b8370beb22ef68ad3afbd_4.5.png">
+       </div>
+       <div class="card-body">
+          <p>4.5 out of 5 stars</p>
+   		<p><strong>Sean Kau</strong></p>
+   		<p>December 3, 2022</p>
+   		<p>The game was super fun. Really enjoyed the theming in the room.  A few of the puzzles are showing some wear but it didn't harm the experience too much.</p>
+       </div>
+    </div>
+ <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Stacey Switzer</strong></p>
+   		<p>November 19, 2022</p>
+   		<p>I'm not big into Zombies, but was still really fun!</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b83704379a33f3e14db01_4.png">
+       </div>
+       <div class="card-body">
+          <p>4 out of 5 stars</p>
+   		<p><strong>Filip Iversen</strong></p>
+   		<p>November 19, 2022</p>
+   		<p>It was fun. Our host John did a great job explaining the game and we all had a good time.</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b83704379a33f3e14db01_4.png">
+       </div>
+       <div class="card-body">
+          <p>4 out of 5 stars</p>
+   		<p><strong>Meredith Schuchardt</strong></p>
+   		<p>November 19, 2022</p>
+   		<p>Great interaction with both groups. Loved it</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b83704379a33f3e14db01_4.png">
+       </div>
+       <div class="card-body">
+          <p>4 out of 5 stars</p>
+   		<p><strong>Kylie Panke</strong></p>
+   		<p>November 19, 2022</p>
+   		<p>John was fantastic. Super easy to follow along!</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Reanna Minton</strong></p>
+   		<p>November 19, 2022</p>
+   		<p>Jon was fantastic!  This was a lot of fun!</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Karen B</strong></p>
+   		<p>November 14, 2022</p>
+   		<p>John was a great host and the entire team had fun. Thanks!</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b83704379a33f3e14db01_4.png">
+       </div>
+       <div class="card-body">
+          <p>4 out of 5 stars</p>
+   		<p><strong>Trish Whitney</strong></p>
+   		<p>November 14, 2022</p>
+   		<p>John was great - engaging and funny. Thank you!</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b8370beb22ef68ad3afbd_4.5.png">
+       </div>
+       <div class="card-body">
+          <p>4.5 out of 5 stars</p>
+   		<p><strong>Murphy O'Brien</strong></p>
+   		<p>November 14, 2022</p>
+   		<p>John was a wonderful host and we all had a great time!</p>
+       </div>
+    </div>
+ <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Bramdu Free,am</strong></p>
+   		<p>November 14, 2022</p>
+   		<p>It was absolutely wonderful. I think it helps the host had a good sense of humor and the people that were in our break out sessions were good spirited. I had today off from work, but I attended because of how much people talked about it the last time. I was not disappointed and can't wait for the next time.</p>
+       </div>
+    </div>	
+<div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b8370beb22ef68ad3afbd_4.5.png">
+       </div>
+       <div class="card-body">
+          <p>4.5 out of 5 stars</p>
+   		<p><strong>John Meagher</strong></p>
+   		<p>November 14, 2022</p>
+   		<p>JThanks for working with us Phil. Lots of strong personalities and loud voices on the call but he weathered it all and rolled with it.</p>
+       </div>
+    </div>
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b8370beb22ef68ad3afbd_4.5.png">
+       </div>
+       <div class="card-body">
+          <p>4.5 out of 5 stars</p>
+   		<p><strong>Willette McCurdy</strong></p>
+   		<p>November 14, 2022</p>
+   		<p>Thank you Phil, we had a great time.</p>
+       </div>
+    </div>
+<div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b83704379a33f3e14db01_4.png">
+       </div>
+       <div class="card-body">
+          <p>4 out of 5 stars</p>
+   		<p><strong>Layna Giese</strong></p>
+   		<p>November 10, 2022</p>
+   		<p>It was fun though the beginning was definitely overwhelming with the information. So maybe shorter interviews? or share it on the screen with us.</p>
+       </div>
+    </div>
+ <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Shannon Stavris</strong></p>
+   		<p>November 8, 2022</p>
+   		<p>Great, fun! Reading the case and listening to the audio was okay (so glad we had the documentation to refer back to). I wish we could've had some video or something to spice up the media types.</p>
+       </div>
+    </div>
+ <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b8370beb22ef68ad3afbd_4.5.png">
+       </div>
+       <div class="card-body">
+          <p>4.5 out of 5 stars</p>
+   		<p><strong>Nick Patnode</strong></p>
+   		<p>November 8, 2022</p>
+   		<p>It was fun! I liked that we used a google doc, it was very familiar and easy to follow along and look back at</p>
+       </div>
+    </div>
+<div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Melissa McVicker</strong></p>
+   		<p>November 4, 2022</p>
+   		<p>This was a great virtual team building event. Games were fun and provided an opportunity for friendly competition, and learning about each other.</p>
+       </div>
+    </div>	
+ <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b8370beb22ef68ad3afbd_4.5.png">
+       </div>
+       <div class="card-body">
+          <p>4.5 out of 5 stars</p>
+   		<p><strong>Katie Johnston</strong></p>
+   		<p>November 4, 2022</p>
+   		<p>Totally unexpected, and so much fun! Went beyond my expectations.</p>
+       </div>
+    </div>
+<div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Matthew Briggs</strong></p>
+   		<p>November 3, 2022</p>
+   		<p>Great content and lots of energy. Very cool magic and really enjoyed being a part of it with my team. Thank you!</p>
+       </div>
+    </div>	
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Angelica English</strong></p>
+   		<p>November 3, 2022</p>
+   		<p>So energized and a great way to bond with our team. Thanks for an amazing experience!</p>
+       </div>
+    </div>	
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Brittany Greene</strong></p>
+   		<p>October 27, 2022</p>
+   		<p>Fantastic!! Samantha was so wonderful and we enjoyed our teambuilding event, as a team who works virtually on the day-to-day. Thanks!!</p>
+       </div>
+    </div>	
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Amy Breshears</strong></p>
+   		<p>October 27, 2022</p>
+   		<p>Samantha was great! It was a lot of fun and she kept the energy going throughout the whole experience. This was my first virtual office party and it was such a great way to get engagement going among employees.</p>
+       </div>
+    </div>	
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Jennifer Kirkland</strong></p>
+   		<p>October 27, 2022</p>
+   		<p>Samantha was fantastic! She was engaging, funny, read the room and drove the momentum!</p>
+       </div>
+    </div>	
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Elisa Ellison</strong></p>
+   		<p>October 26, 2022</p>
+   		<p>From start to finish, the process was very well organized. I was able to reach out with questions both over the phone and via email. During our game experience, we had a lot of fun with Samantha. We had bit a of busier week, so today's game was a welcome break. Samantha was a champ rolling with some of our changes as some folks had to leave a little earlier than expected. Overall, the content, the pace and the mood were kept very high. Thank you all for hosting our Office Olympic games!!</p>
+       </div>
+    </div>	
+    <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Nekiya Brown</strong></p>
+   		<p>October 26, 2022</p>
+   		<p>We just finished the Office Olympic Team Building Event with Samantha.  It was so much fun and shout out to Samantha!  She was an amazing and fun host!  I would highly recommend using this service.  Thanks again!</p>
+       </div>
+    </div>	
+
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Mary Medrano</strong></p>
+   		<p>October 26, 2022</p>
+   		<p>Thank you Samantha! That was soo fun and entertainment !</p>
+       </div>
+    </div>
+     <div class="card">
+        <div class="cust_card_btn_div">
+   <img src="https://uploads-ssl.webflow.com/6267d9df17f47fb6a5ba20dc/640b837017d12b5625722e20_5%20star.png">
+       </div>
+       <div class="card-body">
+          <p>5 out of 5 stars</p>
+   		<p><strong>Glenn Davis</strong></p>
+   		<p>October 26, 2022</p>
+   		<p>Samantha was amazing. I felt like she was able to provider our virtual work environment with an almost in-person experience. I would love to do this again!</p>
+       </div>
+    </div>
+
+
+ </div>
+      </div>
+   </div>
+</div>
+</body>
+</html>
