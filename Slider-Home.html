@@ -1,34 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>HOME</title>
-	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
-</head>
+
 <style type="text/css">
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
-html {
-  font-size: 1rem;
-  box-sizing: border-box;
-}
-body {
-  width: 100%;
-  height: 100%;
-  color: #272727;
-  line-height: 1.9;
-  background-color: #f7f5f5;
-  font-family:Arial, Helvetica, sans-serif;
-}
-h2{
-    text-align: center;
-    font-size: 2rem;
-    line-height: 3.5;
-}
 .slider{
     position: relative;
      max-width: 1000px; 
@@ -195,7 +166,6 @@ p.over-all {
     padding: 10px 8px;
 }
 </style>
-<body>
     <div class="slider">
       <div class="slide">
            <div class="card">
@@ -348,53 +318,3 @@ p.over-all {
             <span class="dot" data-slide="2"></span>
       <span class="dot" data-slide="3"></span>
     </div>
-
-    <script type="text/javascript">
-function Slider() {
-    const carouselSlides = document.querySelectorAll('.slide');
-    const btnPrev = document.querySelector('.prev');
-    const btnNext = document.querySelector('.next');
-    const dotsSlide = document.querySelector('.dots-container');
-    let currentSlide = 0;
-  
-    const activeDot = function (slide) {
-        document.querySelectorAll('.dot').forEach(dot => dot.classList.remove('active'));
-        document.querySelector(`.dot[data-slide="${slide}"]`).classList.add('active');
-    };
-    activeDot(currentSlide);
-
-    const changeSlide = function (slides) {
-        carouselSlides.forEach((slide, index) => (slide.style.transform = `translateX(${100 * (index - slides)}%)`));
-    };
-    changeSlide(currentSlide);
-
-    btnNext.addEventListener('click', function () {
-        currentSlide++; 
-        if (carouselSlides.length - 1 < currentSlide) {
-            currentSlide = 0;
-        };
-        changeSlide(currentSlide);
-        activeDot(currentSlide);
-});
-    btnPrev.addEventListener('click', function () {
-        currentSlide--;
-        if (0 >= currentSlide) {
-            currentSlide = 0;
-        }; 
-        changeSlide(currentSlide);
-        activeDot(currentSlide);
-    });
-
-    dotsSlide.addEventListener('click', function (e) {
-        if (e.target.classList.contains('dot')) {
-            const slide = e.target.dataset.slide;
-            changeSlide(slide);
-            activeDot(slide);
-        }
-    });
-  };
-Slider();
-
-    </script>
-</body>
-</html>
